@@ -16,7 +16,7 @@ while True:
     if choice == "1":
         title = input("Enter movie title: ")
 
-# Data validation (check empty input)
+# Data validation 
         if title == "":
             print("Title cannot be empty.")
             continue
@@ -35,7 +35,7 @@ while True:
     elif choice == "2":
         title = input("Enter movie title to edit: ")
 
-#Error handling (check if movie exists)
+#Error handling 
         if title in movies:
             new_genre = input("Enter new genre: ")
             new_year = input("Enter new year: ")
